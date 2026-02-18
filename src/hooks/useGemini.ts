@@ -7,7 +7,7 @@
 import { useState, useCallback } from 'react';
 import type { ApiKeyStatus } from '../types/saju';
 
-const MODEL_NAME = 'gemini-2.0-flash';
+const MODEL_NAME = 'gemini-2.5-flash';
 const API_BASE   = 'https://generativelanguage.googleapis.com/v1beta/models';
 
 /** .env VITE_GEMINI_API_KEY (빌드 시 주입) — 플레이스홀더는 무시 */
